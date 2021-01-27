@@ -88,3 +88,17 @@ body {
   color: red;
   text-align: center;
 }
+
+/* update form styles */
+.update-form {
+  border: solid black 3px;
+  padding: 3%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input {
+  margin: 1%;
+  display: block;
+}

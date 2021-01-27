@@ -19,8 +19,9 @@ function Movie({ addToSavedList }) {
   const saveMovie = () => {
     addToSavedList(movie);
   };
+
   const updateMovie = () => {
-    push("/update-movie/:id");
+    push(`/update-movie/${params.id}`);
   };
 
   useEffect(() => {
