@@ -11,8 +11,10 @@ export default function UpdtaeMovie() {
     <React.Fragment>
       <form>
         <label htmlFor="title">
-          <input type="text" />
+          <input id="title" type="text" />
         </label>
+
+        <button>Update</button>
       </form>
     </React.Fragment>
   );
